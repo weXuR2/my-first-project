@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font: normal 16px 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgb(0, 0, 0);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.info {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info p{
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+.bg-red {
+    background-color: #ffe5e5;
+}
+
+.bg-yellow {
+    background-color: #fff9dc;
+}
+
+.bg-green {
+    background-color: #e5ffe7;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li{
+    color: #86898f;
+    margin-bottom: 5px;
+}
